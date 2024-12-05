@@ -1,0 +1,1 @@
+/home/dean/RustProjects/hello_rust/target/debug/hello_rust: /home/dean/RustProjects/hello_rust/src/compound_data_types.rs /home/dean/RustProjects/hello_rust/src/functions.rs /home/dean/RustProjects/hello_rust/src/main.rs /home/dean/RustProjects/hello_rust/src/ownership.rs /home/dean/RustProjects/hello_rust/src/primitive_data_types.rs
