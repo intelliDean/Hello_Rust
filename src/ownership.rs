@@ -9,6 +9,7 @@ TODO: 1. EACH VALUE IN RUST HAS A VARIABLE THAT IS ITS OWNER
 */
 
 pub fn calculate_length(string: &String) -> usize { //&String means that we are passing the reference of the owner
+    println!("------------------- OWNERSHIP ------------------------");
     // EACH VALUE IN RUST HAS A VARIABLE THAT'S ITS OWNER
     string.len()
 }

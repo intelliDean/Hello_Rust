@@ -26,6 +26,18 @@ pub fn block() {
     println!("Result is {}", res);
 }
 
+pub fn check_add(num1: i32, num2: i32) {
+    println!("------------- CHECKED ADD -------------");
+
+    let res1 = num1 + num2;
+
+    println!("Plain result is {}", res1);
+
+    let res2 = i32::checked_add(num1, num2).unwrap(); //This does the same thing as
+
+    println!("Checked result is {}", res2);
+}
+
 pub fn calculate_bmi(weight_kg: f64, height_m: f64) -> f64 {
     weight_kg /  (height_m * height_m)
 }
